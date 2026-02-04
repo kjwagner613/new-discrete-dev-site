@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Software</title>
+  <meta name="description"
+    content="Our philosophy: a calm, precise, ownership-friendly approach to architecture, automation, and refinement for corporate or enterprise businesses." />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Fonts (distinct display + readable body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300,400,500&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- Left rail -->
+  <aside class="rail" aria-label="Primary">
+    <button class="menu" id="menuBtn" aria-haspopup="dialog" aria-controls="drawer" aria-expanded="false">
+      <span class="sr-only">Open menu</span>
+      <span class="burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+    </button>
+
+    <div class="dots" aria-hidden="true">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </aside>
+
+
+  <!-- Inserts Drawer -->
+  <section class="drawer" id="drawer" aria-label="Site menu">
+    <div id="drawerMount"></div>
+  </section>
+
+
+  <div class="wrap">
+    <header class="hero">
+      <div class="grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pip"></span> Discrete Development</div>
+          <h1>Software Sample</h1>
+          <p class="sub">
+            Project in development, built with our philosophy, with React and Node.js.
+          </p>
+          <div class="hero-actions">
+            <button class="btn primary" type="button" data-scroll="#architecture">Explore Services</button>
+            <button class="btn" type="button" data-scroll="#contact">Request a Consult</button>
+          </div>
+        </div>
+
+        <div id="brandTileMount"></div>
+
+      </div>
+    </header>
+
+    <div class="strip">
+      <div class="strip-inner reveal" style="animation-delay:.12s">
+        <p>Out philosophy come to life</p>
+        <div style="margin-right: 150px;" class="tag">Custom • Efficient • Modular</div>
+      </div>
+    </div>
+
+    <div class="band" aria-hidden="true"></div>
+
+    <main>
+      <section class="sections" aria-label="Service pillars">
+
+        <!-- Card 1 -->
+        <article class="paper nudge-up reveal" id="simplicity">
+          <div class="paper-inner">
+            <div>
+              <h2>Discrete Work Tools</h2>
+              <p class="lede">A custom coded solution based on ERP functionality, designed with our philosophy of
+                sophistication through simplicity, built to streamline workflows, enhance data accuracy, and improve
+                overall operational efficiency. Begun with the user expeience in mind.
+              </p>
+            </div>
+
+            <div class="pillars">
+              <div class="pillar">
+                <h3 class="migrate">Purpose</h3>
+                <p class="lede">
+                  There is tremendous functionality in business software systems. Most try to make a version with every
+                  known requirement a client could request. Then trim it down for a prospective client when they are
+                  interested.</p>
+                <p class="lede">
+                  To serve and support all the potential, it requires a massive framework. routes, functions, so much
+                  extra code that will not be used, and not needed for most businesses. They give you a list of
+                  available modules and functions contained in the business represented by those modules. The client
+                  only needs to point them out.</p>
+                <p class="lede">
+                  I see constraint in that approach. Providing a set defines a boundary. It is your system, it should do
+                  what you need it to, what you want it to. Technological advancement, modernization, does not have to
+                  be restrictive. We don't take shortcuts. Lets make it freeing.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3 class="migrate">Objective</h3>
+                <p class="lede">
+                  The objective is to build a tool to provide infrastructure for business processes, and adhere to lean
+                  principles itself. No waste. No overengineering. Simple in its production version. Reliable. More than
+                  adequate to create and maintain a customer database. Create Sales Orders, help manage and plan
+                  production. Connect the departments with an intuitive, minimal learning curve to promote adoption.
+                  Address many of the complaints users post today regarding interfaces and complexity that does not
+                  match the ability of the software.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3 class="migrate">Sample</h3>
+                <p class="lede">
+                  This sample is not fully functional. It is scaffolded. Foundation laid. the SD module coded and
+                  assembled. The rest of the modules are outlined, with data models defined. The intention is to
+                  provide a clear example of how the philosophy is applied to a real world application.
+                </p>
+                   <a href="https://app.discrete-dev.com/" class="button">DD-WorkTools, a Proof of Concept</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot">
+        <small>© <span id="year"></span> Discrete Development. Built for clarity.</small>
+        <small style="opacity:.8;">The fringe, where manuals offer no help, memorization fails, only experience
+          guides.</small>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

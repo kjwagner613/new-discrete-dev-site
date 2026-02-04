@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Discrete Development — Home</title>
+  <meta name="description"
+    content="Services for corporate or enterprise businesses: architecture, automation, and refinement with a calm, precise, ownership-friendly approach." />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Fonts (distinct display + readable body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300,400,500&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- Left rail -->
+  <aside class="rail" aria-label="Primary">
+    <button class="menu" id="menuBtn" aria-haspopup="dialog" aria-controls="drawer" aria-expanded="false">
+      <span class="sr-only">Open menu</span>
+      <span class="burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+    </button>
+
+    <div class="dots" aria-hidden="true">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </aside>
+
+  <!-- Drawer
+  <div class="drawer-backdrop" id="backdrop"></div>
+  <section class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Site menu">
+    <header>
+      <h2>Discrete Development</h2>
+      <button class="close" id="closeBtn" type="button">Close</button>
+    </header>
+    <nav aria-label="Navigation">
+      <a href="#introduction">Introduction</a>
+      <a href="philosophy.html">Philosophy</a>
+      <a href="#refinement">Refinement &amp; Longevity</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="mini">
+      <p>
+       A calm, precise, ownership-friendly approach to architecture, automation, and refinement for corporate or
+        enterprise businesses.
+      </p>
+    </div>
+  </section>
+   -->
+
+      <!-- Inserts Drawer -->
+<section class="drawer" id="drawer" aria-label="Site menu">
+  <div id="drawerMount"></div>
+</section>
+
+
+
+  <div class="wrap">
+    <header class="hero">
+      <div class="grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pip"></span> Business Services</div>
+          <h1>Discrete Development</h1>
+          <p class="sub">
+            Sophisticated Software / Custom Built Solutions
+          </p>
+          <div class="hero-actions">
+            <button class="btn primary" type="button" data-scroll="#architecture">Explore Services</button>
+            <button class="btn" type="button" data-scroll="#contact">Request a Consult</button>
+          </div>
+        </div>
+
+        <div class="brand-tile reveal" style="animation-delay:.08s">
+          <div class="mark" aria-label="Discrete Development logo tile">
+            <!-- Inline SVG logo tile (no external image) -->
+            <svg viewBox="0 0 100 100" role="img" aria-label="Discrete Development">
+              <defs>
+                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="rgba(0,0,0,.08)" />
+                  <stop offset="1" stop-color="rgba(0,0,0,.02)" />
+                </linearGradient>
+              </defs>
+
+              <rect x="6" y="6" width="88" height="88" rx="12" fill="rgba(255,255,255,.0)" stroke="rgba(0,0,0,.06)" />
+              <!-- stylized D -->
+              <path d="M22 18 V82" fill="none" stroke="rgba(0,0,0,.78)" stroke-width="3.6" stroke-linecap="round" />
+              <path d="M22 18 C62 16, 74 30, 74 50 C74 70, 62 84, 22 82" fill="none" stroke="rgba(0,0,0,.78)"
+                stroke-width="3.6" stroke-linecap="round" />
+              <!-- <path d="M30 22 C48 22, 60 30, 66 44" fill="none" stroke="rgba(0,0,0,.55)" stroke-width="1.2"
+                stroke-linecap="round" /> -->
+              <!-- <path d="M66 56 C60 70, 48 78, 30 78" fill="none" stroke="rgba(0,0,0,.55)" stroke-width="1.2"
+                stroke-linecap="round" /> -->
+
+              <text x="25" y="58" font-size="6.4" fill="rgba(0,0,0,.72)">ISCRETE</text>
+              <text x="25" y="67" font-size="6.4" fill="rgba(0,0,0,.72)">EVELOPMENT</text>
+
+              <rect x="6" y="6" width="88" height="88" rx="12" fill="url(#g)" opacity=".55" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="strip">
+      <div class="strip-inner reveal" style="animation-delay:.12s">
+        <p>From the fringe, delivering clarity at the center.</p>
+        <!-- <div class="tag">Architecture • Automation • Longevity</div> -->
+        <div class="tag">Introduction</div>
+      </div>
+    </div>
+
+    <div class="band" aria-hidden="true"></div>
+
+    <main>
+      <section class="sections" aria-label="Service pillars">
+
+        <!-- Card 1 -->
+        <article class="paper nudge-up reveal" id="introduction">
+          <div class="paper-inner">
+            <div>
+              <h2>Our Purpose</h2>
+              <p class="lede">
+                We serve businesses that demand clarity, adaptability, and long-term stability in their operational
+                tools. Our approach emphasizes observation before action, intentional simplicity, and
+                solutions that evolve naturally with the organizations they support. By combining the Microsoft
+                ecosystem with custom development, we deliver systems that resist drift, improve workflow reliability,
+                and support sustainable growth.
+              </p>
+            </div>
+
+            <div class="pillars">
+              <div class="pillar">
+                <h3>Simplicity</h3>
+                <p>
+                  Simplicity is sophistication, stability, clarity. Through iterations, systems can accumulate
+                  multitudes of modifications through the years, each adding complexity and obscurity. We prefer to
+                  understand the purpose and refine to achieve it. The simplest implementation to achieve the objective.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3>Stability</h3>
+                <p>
+                  Simplicity is stability. A clear, structure, intentional design is something that can be relied upon.
+                  It is easily understood and contains no ambiguity. If you have ever tried to build a card house, you
+                  understand. The more complex, the more fragile. No design is stronger than simple geometric patterns.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="paper reveal" id="build">
+          <div class="paper-inner">
+            <div>
+              <h2>Responsibility &amp; Accountability</h2>
+              <p class="lede">
+                In a time when liability is often shifted to the processes that realized it. Technology is not a wall
+                to hide behind. We take ownership in our work, including its product. If you want the benefits of a successful
+                project, you also must own if ever it is less than acceptabl.
+              </p>
+            </div>
+
+            <div class="pillars">
+              <div class="pillar">
+                <h3 style="color: red;">Custom Power Apps &amp; Dataverse Solutions</h3>
+                <p>
+                  Purpose-built apps and data models designed to match your workflow. Efficient task handling, clean
+                  data capture,
+                  and scalable structure without enterprise bloat.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3>Process Automation</h3>
+                <p>
+                  We automate the repetitive, predictable, friction-heavy work—while keeping human judgment where nuance
+                  matters.
+                  Reliable triggers, sensible notifications, and audit-friendly logs.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3>Client-Facing Dashboards &amp; Data Experiences</h3>
+                <p>
+                  Clean, intuitive reporting that shows clients what they need—without exposing internal complexity.
+                  Clear story, read-only where appropriate, no clutter.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="paper reveal" id="refinement">
+          <div class="paper-inner">
+            <div>
+              <h2 style="color: red;">Refinement &amp; Longevity</h2>
+              <p class="lede">
+                We treat systems like architecture: reduce wasted motion, modernize what’s brittle, and make the whole
+                thing easier
+                to understand and maintain year after year.
+              </p>
+            </div>
+
+            <div class="pillars">
+              <div class="pillar">
+                <h3>Process Optimization</h3>
+                <p>
+                  Eliminate redundant steps and unnecessary travel through the system. Reduce noise until the work feels
+                  lighter.
+                  If something doesn’t need to exist—it doesn’t.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3>System Modernization</h3>
+                <p>
+                  Rebuild legacy processes into modular, future-proof systems that are easier to maintain, easier to
+                  understand,
+                  and easier to trust.
+                </p>
+              </div>
+              <div class="pillar">
+                <h3>Technical Craftsmanship</h3>
+                <p>
+                  Naming conventions, data models, UI spacing, permissions, and performance—every detail contributes to
+                  integrity.
+                  Nothing skipped or assumed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Contact -->
+        <article class="paper reveal" id="contact">
+          <div class="paper-inner">
+            <div>
+              <h2 style="color: red;">Contact</h2>
+              <p class="lede">
+                Want this page to match your other services page even tighter (spacing, headings, wording)?
+                Tell me what CMS you’re using (or paste your current HTML), and I’ll adapt this layout to your exact
+                structure.
+              </p>
+            </div>
+
+            <div class="pillars">
+              <div class="pillar">
+                <h3>Request a consult</h3>
+                <p style="margin-bottom:10px;">
+                  Send a short note with: your system, your pain points, and what “better” means internally.
+                </p>
+                <form onsubmit="event.preventDefault(); demoSubmit();" aria-label="Consult request form">
+                  <label class="sr-only" for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required
+                    placeholder="you@company.com" style="
+                      width:100%;
+                      padding:12px 12px;
+                      border-radius:14px;
+                      border:1px solid rgba(11,19,32,.18);
+                      background: rgba(255,255,255,.82);
+                      outline:none;
+                      font: 500 14px Inter, sans-serif;
+                      color: rgba(11,19,32,.86);
+                      margin-bottom:10px;
+                    " />
+                  <button class="btn primary" type="submit"
+                    style="width:100%; color: rgba(11,19,32,.92); border-color: rgba(11,19,32,.12);">
+                    Send
+                  </button>
+                  <p id="formNote" style="margin:10px 0 0; font-size:12.5px; color: rgba(11,19,32,.64);"></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot">
+        <small>© <span id="year"></span> Discrete Development. Built for clarity.</small>
+        <small style="opacity:.8;">The fringe, where manuals offer no help, memorization fails, only experience
+          guides.</small>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
