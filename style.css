@@ -566,8 +566,9 @@
     color: rgba(11, 19, 32, .72);
     line-height: 1.65;
     font-size: 14.5px;
-    max-width: 58ch;
+    /* max-width: 65ch; */
     text-align: justify;
+    
   }
 
   .migrate {
